@@ -1,70 +1,123 @@
-# Getting Started with Create React App
+<h1 id= "top" align="center"><img src="https://user-images.githubusercontent.com/94838711/158078960-ab5d5a98-be1b-4ee1-a17b-c41a847fa338.png" />
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <a href="#sobre">Sobre</a> &#xa0; | &#xa0; 
+  <a href="#funciona">O que funciona</a> &#xa0; | &#xa0;
+  <a href="#nao-funciona">O que não funciona</a> &#xa0; | &#xa0;
+  <a href="#pendente">Em desenvolvimento</a> &#xa0; | &#xa0;
+  <a href="#imagens">Imagens do Site</a>  &#xa0; | &#xa0;
+  <a href="#desenvolvedores">Desenvolvedores</a> 
+</p>
 
-## Available Scripts
+<h2 id="sobre">:notebook: Sobre </h2>
 
-In the project directory, you can run:
+<p align="center">🖥️ Projeto desenvolvido conforme proposta do bootcamp ministrado pela Labenu baseado em React JS, para o desenvolvimento de um web site inspirado na Pokédex do anime Pokémon. Nele você pode criar sua própria pokédex com os seus pokémons preferidos. </p>
 
-### `npm start`
+<h2 id="link">:link: Link Surge - link para visualização do site</h2>
+ <a href="https://pokedex-vaughan3.surge.sh">PokeDéx</a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<h2 id="tecnologias"> 🛠 Tecnologias </h2>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Ferramentas usadas na construção do projeto:
 
-### `npm test`
+* React JS
+* Styled-components
+* Chakra UI Design System
+* Customs e React Hooks
+* React Router DOM
+* Integração com API
+* Axios
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h2 id="funciona">:heavy_check_mark: O que funciona</h2>
+<h3> 👤 Header</h3>
 
-### `npm run build`
+* Possui um botão que direciona para página home
+* Possui um botão que direciona para pokedéx
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h3>🏠 Página Home</h3>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Mostra a lista de pokemons ao usuário
+* Botão de adicionar o pokemon à pokedéx
+* Botão de ver os detalhes de um pokemon
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<h3>🔮 Página Pokedéx</h3>
 
-### `npm run eject`
+* Mostra a lista de pokemons adicionados pelo usuário
+* Botão de remover o pokemon da pokedéx
+* Botão de ver os detalhes de um pokemon
+* Quando a pokedéx está vazia, isso é mostrado ao usuário
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<h3>👀 Página de Detalhes<h3> 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+ <h4>
+   
+* Mostra o nome e imagem frontal do pokemon
+* Mostra o stats (HP, ataque, defesa, ataque especial, defesa especial, velocidade)
+* Mostra o tipo do pokemon
+* Mostra os principais movimentos/ataques do pokemon
+   
+</h4>
+  
+<h3>➕ Outras funcionalidades</h3>
+  
+* Responsividade para mobile
+* Caso o usuário digite uma url inválida o mesmo será direcionado para a página de erro
+* Paginação
+  
+<h2 id="nao-funciona">:x: O que não funciona</h2>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* Ao clicar no botão de adicionar, o card do Pokemon clicado deve desaparecer da tela (Página Home);
+* Botão para adicionar ou remover o pokemon da Pokedex a partir da página de detalhes (Página de Detalhes);
+ 
+<h2 id="pendente">:construction: Em desenvolvimento</h2>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- [ ] Ao clicar no botão de adicionar, o card do Pokemon clicado deve desaparecer da tela (Página Home);
+- [ ] Botão para adicionar ou remover o pokemon da Pokedex a partir da página de detalhes (Página de Detalhes);
+- [ ] Batalha dos pokemons
 
-## Learn More
+<h2 id="imagens"> 🖥️ Imagens do site (computador)</h2>
+  
+![2](https://user-images.githubusercontent.com/94838711/158102210-f85342d8-53f9-43ff-af1e-545cede78f28.png)
+  
+![1](https://user-images.githubusercontent.com/94838711/158102215-253ad9b9-114b-419e-94f6-bc458d3aebac.png)
+  
+![image](https://user-images.githubusercontent.com/94838711/158102496-9defe43f-7324-45c2-8e61-c420fac74f49.png)
+  
+![3](https://user-images.githubusercontent.com/94838711/158102217-041ecd64-6a31-4596-8b6f-cc325bc67267.png)
+  
+![image](https://user-images.githubusercontent.com/94838711/158102297-7fb2328b-3c6f-49fd-bcf7-be43ab0f819d.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<h2> 📱 Imagens do site (mobile)</h2>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![image](https://user-images.githubusercontent.com/94838711/158102630-0855cc00-cb4a-4396-bcec-7f7f26b81834.png)
 
-### Code Splitting
+![image](https://user-images.githubusercontent.com/94838711/158102677-29ec7bda-ba39-48e1-a12d-fc6494939cd1.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![image](https://user-images.githubusercontent.com/94838711/158102694-3c680fcd-aa80-453c-85b1-5fccaa9a3fd0.png)
 
-### Analyzing the Bundle Size
+![image](https://user-images.githubusercontent.com/94838711/158102710-be5ea9df-330b-4686-a526-4453371e7564.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![image](https://user-images.githubusercontent.com/94838711/158102728-3937c4ba-bd9a-4c3c-aa93-8d8f63469452.png)
+  
+<h2 id="desenvolvedores">:construction_worker: Desenvolvedores</h2>
 
-### Making a Progressive Web App
+<table> 
+<tr>
+ 
+ <td align="center"><a href="https://github.com/future4code/vaughan-Ana-Silva"><img style="border-radius: 50%" src="https://user-images.githubusercontent.com/94838711/158080211-ef52ad45-7600-4479-998b-f6c423de7576.png" width="100px" alt=""/>
+ <br />
+ <sub><b>Ana Karine</b></sub></a> <a href="https://github.com/future4code/vaughan-Ana-Silva">👩🏻‍💻</a></td>
+  
+  <td align="center"><a href="https://github.com/future4code/vaughan-Geyson-Sousa"><img style="border-radius: 50%" src="https://user-images.githubusercontent.com/94838711/158080839-3526a9ab-2ccf-4278-bd97-6e4f8c1a424d.png" width="100px" alt=""/>
+ <br />
+ <sub><b>Geyson Mesquita</b></sub></a> <a href="https://github.com/future4code/vaughan-Geyson-Sousa">👨🏽‍💻</a></td>
+  
+  <td align="center"><a href="https://github.com/future4code/vaughan-Gledson-Souto"><img style="border-radius: 50%" src="https://user-images.githubusercontent.com/94838711/158081019-60ba355e-131e-4b30-bf9f-c6ab73ea976c.png" width="100px" alt=""/>
+ <br />
+ <sub><b>Gledson Lucas</b></sub></a> <a href="https://github.com/future4code/vaughan-Gledson-Souto">🧑🏻‍💻</a></td>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+</tr>
+</table>
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<a href="#top">Voltar para o topo 🔝</a>
