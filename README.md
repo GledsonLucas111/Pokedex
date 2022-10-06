@@ -17,27 +17,19 @@
 <h2 id="link">:link: Link Surge - link para visualização do site</h2>
  <a href="https://pokedex-vaughan3.surge.sh">PokeDéx</a>
 
- ## Como executar este projeto em sua maquina 
- 
- O projeto foi iniciado com [Create React App](https://github.com/facebook/create-react-app).
+## Inicializar projeto
+```bash
+# Install package
+$ npm install
 
-<h3> Scripts Disponíveis: </h3>
 
-No diretório do projeto, você pode executar:
+# Executar projeto
+$ npm start
 
-### `npm install`
-
-Para instalar a node_modules para que o projeto funcione sem nenhum erro.
-
-### `npm start`
-
-Executa o aplicativo no modo de desenvolvimento.
 Abra [http://localhost:3000](http://localhost:3000) para visualizá-lo no navegador. 
 A página será recarregada se você fizer edições.
 Você também verá erros de lint no console.
-
-Veja a seção sobre [deployment](https://facebook.github.io/create-react-app/docs/deployment) para mais informações.
-
+```
 <h2 id="tecnologias"> 🛠 Tecnologias </h2>
 
 Ferramentas usadas na construção do projeto:
